@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(223, 238, 255);
+}
+
+.wrapper {
+  max-width: 48rem;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+h1 {
+  padding: 10px;
+}
+
+form input {
+  width: 100%;
+  border: transparent;
+  background: #f6f6f6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
+form input:hover {
+  background: #f1f1f1;
+}
+form input:focus {
+  outline: none;
+}
+
+li {
+  list-style: none;
+  background: rgb(157, 203, 255);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checked {
+  display: none;
+}
+
+button {
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: none;
+  background: #50ff96;
+  cursor: pointer;
+}
+button:hover {
+  background: #97ffc1;
+}
