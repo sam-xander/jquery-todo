@@ -6,7 +6,7 @@ This is a todo list tool built with JavaScript and jQuery that allows users to a
 
 ---
 
-![](/images/jquery-todo-screenshot.png)
+![](/jquery-todo-screenshot.png)
 
 ---
 
